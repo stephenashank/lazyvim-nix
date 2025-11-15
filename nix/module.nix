@@ -135,7 +135,7 @@ in {
     # Ensure neovim is enabled
     programs.neovim = {
       enable = true;
-      package = pkgs.neovim-unwrapped;
+      package = pkgs.neovim;
 
       withNodeJs = true;
       withPython3 = true;
